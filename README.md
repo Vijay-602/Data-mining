@@ -5,7 +5,6 @@
 This project is a web application that recommends tourist attractions based on user preferences using machine learning models. The system integrates data processing, model training, and a web-based interface to deliver real-time predictions to users. The application utilizes Flask for the backend, HTML/CSS/JavaScript for the frontend, and pre-trained models stored as pickle files.
 
 ## Project Structure
-
 ├── Tourism_Dataset/                     # Raw dataset files for analysis and model training
 ├── integrated_data.csv                  # Processed and integrated dataset
 ├── cleaned_discretized_tourism_data.csv # Cleaned dataset used for modeling
@@ -31,6 +30,7 @@ This project is a web application that recommends tourist attractions based on u
 ├── desktop.ini                          # System file (can be ignored)
 ├── requirements.txt                     # List of required Python packages
 ├── X.pkl                                # Feature matrix for model training
+
 
 
 
