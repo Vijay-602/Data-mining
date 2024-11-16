@@ -4,37 +4,6 @@
 ## Overview
 This project is a web application that recommends tourist attractions based on user preferences using machine learning models. The system integrates data processing, model training, and a web-based interface to deliver real-time predictions to users. The application utilizes Flask for the backend, HTML/CSS/JavaScript for the frontend, and pre-trained models stored as pickle files.
 
-## Project Structure
-├── .gitattributes                  # Git attributes configuration
-├── .python-version                 # Python version used for the project
-├── integrated_data.csv             # Processed and integrated dataset
-├── cleaned_discretized_tourism_data.csv  # Cleaned dataset used for modeling
-├── country_onehot_encoder2.pkl     # One-hot encoder for country features
-├── labelencoder-task3.pkl          # Label encoder for Task 3 predictions
-├── label_encoders.pkl              # General label encoder for all models
-├── label_encoders2.pkl             # Label encoder for additional tasks
-├── onehot_encode_country-task3.pkl # One-hot encoder for Task 3
-├── attraction_models2.pkl          # Pre-trained model for attraction predictions
-├── model_1.pkl                     # Model for predicting attraction types
-├── model_2_3.pkl                   # Model for predicting attractions and months
-├── model_3.pkl                     # Model for attraction recommendations
-├── random_forest_model.pkl         # Random forest model for predictions
-├── random_forest_models-task2-st3.pkl  # Random forest model for Task 2 and 3
-├── app.py                          # Main Flask application script
-├── data_integration.py             # Script for integrating raw datasets
-├── mining_project.py               # Python script for data mining and analysis
-├── Mining_Report.pdf               # Data mining process and findings
-├── README.md                       # Project documentation
-├── mining85.html                   # HTML report with data mining insights
-├── X.pkl                           # Feature matrix for model training
-├── requirements.txt                # List of required Python packages
-├── desktop.ini                     # Windows system file (can be ignored)
-
-
-
-
-
-
 
 ## Getting Started
 
